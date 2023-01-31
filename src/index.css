@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-div {
+  padding: 20px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.display-flex {
+  display: flex;
+
+}
+
+.sub-div {}
+
+.p-1{
+  padding: 0.5rem;
+}
+.pr-2 {
+  padding-right: 1rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.main-component-div {
+  display: flex;
+  gap: 20px;
+}
+
+.sub-item-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px ;
+}
+
+.first-component-div {
+  width: 40%;
+}
+
+.second-component-div {
+  width: 60%;
+}
+
+.border-line {
+  border-bottom: 15px solid rgb(111, 255, 0);
+}
+
+.box{
+  height: 16px;
+  width: 16px;
+}
+
+.bg-green{
+  background-color: rgb(34, 255, 0);
+}
+.text-green{
+  color: rgb(0, 255, 242);
+}
+
+.bg-orange{
+  background-color: orange
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.right-div{
+  width: 100px;
+  text-align: end;
+}
+
+.right-sub-div{
+  display: flex;
+
+}
+.d-flex-space-between{
+  display: flex;
+  justify-content: space-between;
+}
+.first-div{
+  border-bottom: 2px solid #dadcde;
+}
